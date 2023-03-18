@@ -16,7 +16,7 @@ public class WeatherApi {
 	    String url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=921f774ae1e436501798051e22ea78db&units=metric";
 	  
 	    
-	    String weather = null;
+	    String weather = "test";
 	    try {
 	        URL apiUrl = new URL(url);
 	        HttpURLConnection conn = (HttpURLConnection) apiUrl.openConnection();
