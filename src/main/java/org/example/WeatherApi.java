@@ -12,10 +12,8 @@ public class WeatherApi {
 	// facebook.com/profile
 	
 	public static String getWeather(String cityName) {
-	    String apiKey = "921f774ae1e436501798051e22ea78db";
-	    
-	    // https://api.openweathermap.org/data/2.5/weather?q=Tirana&appid=921f774ae1e436501798051e22ea78db&units=metric
-	    String url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + apiKey + "&units=metric";
+	   // https://api.openweathermap.org/data/2.5/weather?q=Tirana&appid=921f774ae1e436501798051e22ea78db&units=metric
+	    String url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=921f774ae1e436501798051e22ea78db&units=metric";
 	  
 	    
 	    String weather = null;
